@@ -69,7 +69,7 @@ class DownloadPanel extends Component {
       downloading: true
     }, ...videos] })
 
-    post('ytdl/download', `url=${url}`).then(newVideo => {
+    post('download', `url=${url}`).then(newVideo => {
       videos = this.state.videos
 
       const updatedVideos = videos.map(video =>

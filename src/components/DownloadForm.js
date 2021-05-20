@@ -10,7 +10,7 @@ class DownloadForm extends Component {
     return (
       <form className='downloadForm' onSubmit={this.props.onSubmit}>
         <input className='downloadForm__input' type='text' />
-        <button className='downloadForm__btn'>Download</button>
+        <button className='downloadForm__btn'>▶</button>
       </form>
     )
   }
