@@ -24,7 +24,7 @@ class DownloadList extends Component {
                   <a
                     onClick={this.props.onVideoDownloadClick}
                     data-orig={video.url}
-                    href={`/request/${video.name}.${video.format}`}
+                    href={`./request/${video.name}.${video.format}`}
                     download={`${video.name}.${video.format}`}
                   >Download</a>
                 </span>
